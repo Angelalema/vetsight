@@ -25,12 +25,8 @@ const ComingSoon = () => {
           <span className="bg-vet-primary bg-opacity-10 text-vet-primary px-4 py-2 rounded-full text-sm font-medium">
             Próximamente
           </span>
-          <h2 className="text-3xl font-bold text-vet-dark mt-4 mb-4">
-            ¡La App de PawsomeVet!
-          </h2>
-          <p className="max-w-2xl mx-auto text-gray-600">
-            Nuestra aplicación móvil está casi lista, llevando el cuidado veterinario a tu bolsillo con funciones poderosas para mantener a tus mascotas saludables.
-          </p>
+          <h2 className="text-3xl font-bold text-vet-dark mt-4 mb-4">¡La App de vetsight!</h2>
+          <p className="max-w-2xl mx-auto text-gray-600">Nuestra aplicación móvil está casi lista, desde donde podrás hacer un seguimiento de la salud de tu mascota, consultar sus próximas citas y hablar en todo momento con un veterinario.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">

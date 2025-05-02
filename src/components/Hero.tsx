@@ -7,9 +7,7 @@ const Hero = () => {
           Cuidado Veterinario{" "}
           <span className="text-vet-primary">Al Alcance de tu Mano</span>
         </h1>
-        <p className="text-gray-600 mb-8 text-lg">
-          Reserva citas, haz seguimiento a la salud de tus mascotas y chatea con veterinarios - todo desde la comodidad de tu hogar.
-        </p>
+        <p className="text-gray-600 mb-8 text-lg">Reserva citas y haz seguimiento a la salud de tus mascotas y chatea con veterinarios - todo desde la comodidad de tu hogar.</p>
         <div className="flex flex-col sm:flex-row gap-4 mb-6">
           <Button className="bg-vet-primary hover:bg-vet-accent text-white py-6 px-8 rounded-md text-lg w-full sm:w-auto">
             Reservar Cita
