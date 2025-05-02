@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0">
-        <img alt="Gato naranja y blanco descansando" src="/lovable-uploads/21b56694-12e7-4f1c-bfbd-74a44936199b.jpg" className="rounded-lg max-h-[400px] object-contain" />
+        <img alt="Gato naranja y blanco descansando" src="/lovable-uploads/21b56694-12e7-4f1c-bfbd-74a44936199b.jpg" className="rounded-lg max-h-[500px] object-contain" />
       </div>
     </div>;
 };
