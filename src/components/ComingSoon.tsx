@@ -29,39 +29,41 @@ const ComingSoon = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <span className="bg-vet-primary bg-opacity-10 text-vet-primary px-4 py-2 rounded-full text-sm font-medium">
-            Coming Soon
+            Próximamente
           </span>
           <h2 className="text-3xl font-bold text-vet-dark mt-4 mb-4">
-            The PawsomeVet App!
+            ¡La App de PawsomeVet!
           </h2>
           <p className="max-w-2xl mx-auto text-gray-600">
-            Our mobile app is almost here, bringing veterinary care to your pocket with powerful features to keep your pets healthy.
+            Nuestra aplicación móvil está casi lista, llevando el cuidado veterinario a tu bolsillo con funciones poderosas para mantener a tus mascotas saludables.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
           <div className="flex flex-col space-y-8">
             <AppFeature
-              title="Track Your Pet's Health"
-              description="Monitor your pet's health metrics, medication schedules, and upcoming appointments all in one place."
+              title="Control de la Salud de tu Mascota"
+              description="Supervisa las métricas de salud de tu mascota, programa de medicamentos y próximas citas, todo en un solo lugar."
               icon={HeartIcon}
             />
             <AppFeature
-              title="Book Appointments with Veterinarians"
-              description="Schedule visits to your favorite vet clinic with just a few taps on your phone."
+              title="Reserva Citas con Veterinarios"
+              description="Programa visitas a tu clínica veterinaria favorita con solo unos toques en tu teléfono."
               icon={Calendar}
             />
             <AppFeature
-              title="24/7 Support with Veterinarians"
-              description="Get immediate assistance for your pet's health concerns through our in-app chat with qualified veterinarians."
+              title="Soporte 24/7 con Veterinarios"
+              description="Obtén asistencia inmediata para los problemas de salud de tu mascota a través de nuestro chat en la aplicación con veterinarios cualificados."
               icon={Clock}
             />
           </div>
           <div className="flex justify-center items-center mt-8 md:mt-0">
             <div className="bg-gray-50 p-8 rounded-xl w-full max-w-sm">
-              <div className="bg-vet-primary rounded-lg h-64 flex items-center justify-center">
-                <span className="text-white font-semibold text-xl">App Preview Coming Soon</span>
-              </div>
+              <img
+                src="https://images.unsplash.com/photo-1517022812141-23620dba5c23"
+                alt="Aplicación móvil con animales"
+                className="rounded-lg w-full h-64 object-cover"
+              />
               <div className="flex justify-center mt-4">
                 <div className="h-12 w-12 rounded-full border-4 border-gray-200"></div>
               </div>
