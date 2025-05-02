@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+
 const Footer = () => {
   return <div className="bg-vet-footer text-white">
       <div className="py-16 px-6 md:px-12">
@@ -10,7 +12,10 @@ const Footer = () => {
           <p className="mb-8 text-gray-300">
             Únete a miles de dueños de mascotas que confían en PawsomeVet para sus necesidades veterinarias.
           </p>
-          <Button className="bg-vet-primary hover:bg-vet-accent text-white py-6 px-8 rounded-md text-lg flex mx-auto items-center">
+          <Button 
+            className="bg-vet-primary hover:bg-vet-accent text-white py-6 px-8 rounded-md text-lg flex mx-auto items-center"
+            onClick={() => window.open("https://calendly.com/vetsight/30min", "_blank")}
+          >
             Reservar Cita Ahora
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
@@ -28,4 +33,5 @@ const Footer = () => {
       </div>
     </div>;
 };
+
 export default Footer;

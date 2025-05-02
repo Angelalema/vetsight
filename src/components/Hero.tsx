@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+
 const Hero = () => {
   return <div className="w-full flex flex-col lg:flex-row bg-vet-light py-10 px-6 md:px-12 lg:py-20">
       <div className="w-full lg:w-1/2 flex flex-col justify-center">
@@ -9,7 +11,10 @@ const Hero = () => {
         </h1>
         <p className="text-gray-600 mb-8 text-lg">Reserva citas y haz seguimiento a la salud de tus mascotas y chatea con veterinarios - todo desde la comodidad de tu hogar.</p>
         <div className="flex flex-col sm:flex-row gap-4 mb-6">
-          <Button className="bg-vet-primary hover:bg-vet-accent text-white py-6 px-8 rounded-md text-lg w-full sm:w-auto">
+          <Button 
+            className="bg-vet-primary hover:bg-vet-accent text-white py-6 px-8 rounded-md text-lg w-full sm:w-auto"
+            onClick={() => window.open("https://calendly.com/vetsight/30min", "_blank")}
+          >
             Reservar Cita
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
@@ -20,4 +25,5 @@ const Hero = () => {
       </div>
     </div>;
 };
+
 export default Hero;
