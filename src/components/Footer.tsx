@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <div className="bg-vet-footer text-white">
+  return <div className="bg-vet-footer text-white">
       <div className="py-16 px-6 md:px-12">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">
@@ -22,15 +19,13 @@ const Footer = () => {
       <div className="border-t border-gray-700 py-6 px-6 md:px-12">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <span className="text-white text-xl font-bold">PawsomeVet</span>
+            <span className="text-white text-xl font-bold">vetsight</span>
           </div>
           <div className="text-gray-400 text-sm">
             © {new Date().getFullYear()} PawsomeVet. Todos los derechos reservados.
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Footer;
