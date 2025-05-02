@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <div className="w-full flex flex-col lg:flex-row bg-vet-light py-10 px-6 md:px-12 lg:py-20">
+  return <div className="w-full flex flex-col lg:flex-row bg-vet-light py-10 px-6 md:px-12 lg:py-20">
       <div className="w-full lg:w-1/2 flex flex-col justify-center">
         <h1 className="text-4xl md:text-5xl font-bold text-vet-dark mb-4">
           Cuidado Veterinario{" "}
@@ -21,14 +18,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0">
-        <img
-          src="https://images.unsplash.com/photo-1582562124811-c09040d0a901"
-          alt="Gato naranja y blanco descansando"
-          className="rounded-lg max-h-[400px] object-contain"
-        />
+        <img alt="Gato naranja y blanco descansando" src="/lovable-uploads/21b56694-12e7-4f1c-bfbd-74a44936199b.jpg" className="rounded-lg max-h-[400px] object-contain" />
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Hero;
